@@ -1,0 +1,52 @@
+/*-----------------------*\
+	$BASE STYLE
+\*-----------------------*/
+
+sup,
+sub {
+  height: 0;
+  line-height: 1;
+  vertical-align: baseline;
+  _vertical-align: bottom;
+  position: relative;
+  font-size: .6em;
+}
+
+sup {
+  bottom: 1.4ex;
+}
+
+sub {
+  top: .5ex;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  outline: 0 none;
+  border: 0 none;
+}
+
+img:not([src]){
+  visibility: hidden;
+}
+
+.clear {
+  clear: both;
+}
+
+body, p {
+  font-size: 14px;
+}
+
+*:focus {outline:0;}
+
+[placeholder] {
+  @include placeholder(#575757);
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}

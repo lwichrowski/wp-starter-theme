@@ -1,0 +1,12 @@
+/*!
+Theme Name:
+Theme URI:
+
+Author: Lukasz Wichrowski
+Author URI: https://lukasz-wichrowski.pl
+
+Version: 0.1
+
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*//* line 5, src/scss/parts/global/_base.scss */sup,sub{height:0;line-height:1;vertical-align:baseline;_vertical-align:bottom;position:relative;font-size:.6em}/* line 15, src/scss/parts/global/_base.scss */sup{bottom:1.4ex}/* line 19, src/scss/parts/global/_base.scss */sub{top:.5ex}/* line 23, src/scss/parts/global/_base.scss */img{max-width:100%;height:auto;outline:0 none;border:0 none}/* line 30, src/scss/parts/global/_base.scss */img:not([src]){visibility:hidden}/* line 34, src/scss/parts/global/_base.scss */.clear{clear:both}/* line 38, src/scss/parts/global/_base.scss */body,p{font-size:14px}/* line 42, src/scss/parts/global/_base.scss */*:focus{outline:0}/* line 6, src/scss/parts/global/_mixins.scss */[placeholder]::-webkit-input-placeholder{color:#575757;opacity:1}/* line 13, src/scss/parts/global/_mixins.scss */[placeholder]:-moz-placeholder{color:#575757;opacity:1}/* line 20, src/scss/parts/global/_mixins.scss */[placeholder]::-moz-placeholder{color:#575757;opacity:1}/* line 27, src/scss/parts/global/_mixins.scss */[placeholder]:-ms-input-placeholder{color:#575757;opacity:1}/* line 48, src/scss/parts/global/_base.scss */html,body{position:relative;height:100%}
